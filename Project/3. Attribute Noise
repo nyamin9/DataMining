@@ -1,0 +1,160 @@
+# 2022-1 학기 데이터마이닝 프로젝트_(3)  
+
+🐍 저번 글에서는 유일하게 classify 되지 않은 혈압 attribute의 범위를 알아보고 이를 전처리하는 내용을 다뤘다. 이번 글에서는 나머지 classify 된 attribute 중에서 noise 가 있는지 확인해보자.<br>  
+
+🐍 원본 데이터 70000개의 object 중에서 Systolic / Diastolic Blood Presure Preprocessing 의 결과 남은 object가 64500개였다. 따라서 각 attribute의 class들의 개수를 합치면 각각 64500 이 나오는지 확인하는 방법으로 noisy data를 판단할 것이다.<br>  
+
+🐍 사실, 상당히 단순무식한 방법이라고 생각한다. 각 attribute 가 가지는 값을 확인하는 .unique() 함수를 사용해서 이를 쉽게 알 수도 있지만, 프로젝트의 코드만으로도 진행방향을 설명하기 위해 이러한 방식을 사용하였다. 동시에 각 attribute의 class의 분포를 알 수 있다는 장점 또한 있다고 생각하였다😀😀.<br>  
+
+***  
+
+## 3.1. Label (cardio) - Binary  
+```py  
+print('cardiovascular : ', len(cardio[cardio['cardio']==1]))
+print('Non-cardiovascular : ', len(cardio[cardio['cardio']==0]))
+print('Cardio summation : ', len(cardio[cardio['cardio']==1]) + len(cardio[cardio['cardio']==0]))  
+```  
+
+```  
+>>  
+cardiovascular :  32146
+Non-cardiovascular :  32354
+Cardio summation :  64500  
+```  
+🐍 각 case의 경우의 데이터수의 합이 총 데이터수와 동일하므로 noisy data가 없다.<br>  
+
+🐍 또한, 우리가 예측하고자 하는 target 들의 분포가 거의 1:1 에 가깝다는 것을 확인 할 수 있었다.<br>  
+
+***  
+
+## 3.2. Cholesterol - Ordinal  
+
+```py 
+print('normal-cholesterol : ', len(cardio[cardio['cholesterol']==1]))
+print('above normal-cholesterol : ', len(cardio[cardio['cholesterol']==2]))
+print('well above normal-cholesterol : ', len(cardio[cardio['cholesterol']==3]))
+print('Cholesterol summation : ', len(cardio[cardio['cholesterol']==1]) + len(cardio[cardio['cholesterol']==2]) + len(cardio[cardio['cholesterol']==3]))  
+```  
+
+```  
+>>  
+normal-cholesterol :  48461
+above normal-cholesterol :  8583
+well above normal-cholesterol :  7456
+Cholesterol summation :  64500  
+```  
+🐍 각 case의 경우의 데이터수의 합이 총 데이터수와 동일하므로 noisy data가 없다.<br>
+  
+***  
+
+## 3.3. Glucose - Ordinal  
+```py  
+print('normal-Glucose : ', len(cardio[cardio['gluc']==1]))
+print('above normal-Glucose : ', len(cardio[cardio['gluc']==2]))
+print('well above normal-Glucose : ', len(cardio[cardio['gluc']==3]))
+print('Glucose summation : ', len(cardio[cardio['gluc']==1]) + len(cardio[cardio['gluc']==2]) + len(cardio[cardio['gluc']==3]))  
+```  
+
+```  
+>>  
+normal-Glucose :  54886
+above normal-Glucose :  4673
+well above normal-Glucose :  4941
+Glucose summation :  64500  
+```  
+
+🐍 각 case의 경우의 데이터수의 합이 총 데이터수와 동일하므로 noisy data가 없다.<br>  
+
+***  
+
+## 3.4. Smoke / Non-smoke - Binary  
+```py  
+print('Smoke : ', len(cardio[cardio['smoke']==1]))
+print('Non-smoke : ', len(cardio[cardio['smoke']==0]))
+print('Smoke summation : ', len(cardio[cardio['smoke']==1]) + len(cardio[cardio['smoke']==0]))  
+```  
+
+```  
+>>  
+Smoke :  5651
+Non-smoke :  58849
+Smoke summation :  64500  
+```  
+
+🐍 각 case의 경우의 데이터수의 합이 총 데이터수와 동일하므로 noisy data가 없다.<br>  
+
+***  
+
+## 3.5. Alcohol / Non-Alcohol - Binary  
+```py  
+print('alcohol : ', len(cardio[cardio['alco']==1]))
+print('Non-alcohol : ', len(cardio[cardio['alco']==0]))
+print('Alcohol summation : ', len(cardio[cardio['alco']==1]) + len(cardio[cardio['alco']==0]))  
+```  
+
+```  
+>>  
+alcohol :  3422
+Non-alcohol :  61078
+Alcohol summation :  64500  
+```  
+
+🐍 각 case의 경우의 데이터수의 합이 총 데이터수와 동일하므로 noisy data가 없다.<br>   
+
+***  
+
+## 3.6. Active - Binary  
+```py  
+print('Active : ', len(cardio[cardio['active']==1]))
+print('Non-Active : ', len(cardio[cardio['active']==0]))
+print('Active summation : ', len(cardio[cardio['active']==1]) + len(cardio[cardio['active']==0]))  
+```  
+
+```  
+>>  
+Active :  51825
+Non-Active :  12675
+Active summation :  64500  
+```  
+
+🐍 각 case의 경우의 데이터수의 합이 총 데이터수와 동일하므로 noisy data가 없다.<br>  
+
+***  
+
+🐍 각 attribute가 noise 없이 깔끔하게 정리된 걸 확인할 수 있었다. 최종적으로 사용할 데이터와 info를 확인하는 것으로 데이터 전처리 과정을 정리하도록 하겠다😊😊.<br>  
+
+```py  
+cardio  
+```  
+
+<p align="center"><img src="https://user-images.githubusercontent.com/65170165/187910972-0200d35a-827d-46e5-90d6-a2c89a466825.png" width="600" /></p>  
+
+***  
+
+```py  
+cardio.info()  
+```  
+
+```  
+>>  
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 64500 entries, 0 to 69999
+Data columns (total 11 columns):
+ #   Column       Non-Null Count  Dtype  
+---  ------       --------------  -----  
+ 0   age          64500 non-null  int64  
+ 1   gender       64500 non-null  int64  
+ 2   ap_hi        64500 non-null  int64  
+ 3   ap_lo        64500 non-null  int64  
+ 4   cholesterol  64500 non-null  int64  
+ 5   gluc         64500 non-null  int64  
+ 6   smoke        64500 non-null  int64  
+ 7   alco         64500 non-null  int64  
+ 8   active       64500 non-null  int64  
+ 9   cardio       64500 non-null  int64  
+ 10  BMI          64500 non-null  float64
+dtypes: float64(1), int64(10)
+memory usage: 5.9 MB  
+```  
+
+***
