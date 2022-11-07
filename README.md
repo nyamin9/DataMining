@@ -27,7 +27,9 @@
 📌 시각화를 진행한 .ipynb 파일은 업로드해서 readme에 남겨두겠습니다. 아래의 링크를 타고 들어오시기를 바랍니다!!<br>  
 
 
-PCA_plotly : https://chart-studio.plotly.com/~nyamin9/63
+📊 01. 데이터 전처리 01 : https://chart-studio.plotly.com/~nyamin9/64  
+
+📊 PCA_plotly : https://chart-studio.plotly.com/~nyamin9/63
 
 
 ***  
