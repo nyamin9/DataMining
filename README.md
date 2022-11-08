@@ -49,7 +49,7 @@ tree 와 random forest classification으로 model의 성능을 알아볼 예정�
 📊 PCA_plotly : https://chart-studio.plotly.com/~nyamin9/63  
   
 <br>  
-<br>  
+***
 
 (2022.11.07 추가)  
   
