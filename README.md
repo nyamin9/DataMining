@@ -31,7 +31,7 @@
 
 <p align="center"><img src="https://user-images.githubusercontent.com/65170165/200470962-f08bc143-a80a-48f8-ab25-7766920fc2d1.jpg" width="500" /></p><br>  
 
-<center><사망원인 통계 조사, 통계청, 2019></center>
+<p align="center"><사망원인 통계 조사, 통계청, 2019></p>
 
 
 2022.11.07 추가  
