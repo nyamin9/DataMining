@@ -29,12 +29,18 @@
 기 힘들 수 있습니다. 따라서 집에서 간단하게 테스트를 해보고 자신이 심혈관 질병이 있는지 알려주는 모델을 만들
 면 병원에 가야하는 불편함을 줄여줄 수 있을 뿐더러, 혹시나 있을 질병을 예측하는 데 도움이 될 것입니다.<br>  
 
-<p align="center"><img src="https://user-images.githubusercontent.com/65170165/200470962-f08bc143-a80a-48f8-ab25-7766920fc2d1.jpg" width="500" /></p><br>  
+<p align="center"><img src="https://user-images.githubusercontent.com/65170165/200470962-f08bc143-a80a-48f8-ab25-7766920fc2d1.jpg" width="500" /></p>  
 
-<p align="center"><사망원인 통계 조사, 통계청, 2019></p>
+<p align="center"><사망원인 통계 조사, 통계청, 2019></p>    
+  
+💡 저희가 원하는 심혈관 질환 발병 모델은 사용자가 자신의 정보를 입력하면 다른 환자의 정보들로부터 학습된
+심혈관 질환 모델이 사용자의 심혈관 질병의 발병 여부에 대해 예측하고 결과를 알려주는 것입니다. 이러한 심혈관 질환 발병 확인 모델을 만들기 위해 첫번째로 noisy data나, missing data를 찾아서 수정을 하는 데이터 전처리를 할 것입니다. 두번째로 attribute들의 상관관계를 조사해서 비교적 상관관계가 적은 attribute들을 제거해 보고, 선택된 attribute를 가지고 attribute set을 만들 것입니다. 마지막으로 수정된 data를 가지고 decision 
+tree 와 random forest classification으로 model의 성능을 알아볼 예정입니다.  
+  
+  
+***
 
-
-2022.11.07 추가  
+(2022.11.07 추가)  
   
 
 📌 기존에 제가 블로그나 깃허브에 plotly그래프를 호출하는 방식은 plotly 계정의 API key 값을 사용해서 그래프에 대한 링크를 임베딩하는 방식입니다. 그런데 저의 plotly Home 대쉬보드에 더 이상의 여유공간이 없어서,,,!! (몇 개 올린 것 같지도 않은데 말이죠...😥😥) 더 이상 그래프를 호출을 못하더라구요,,, 그래서 다른 방법을 찾는 중이었습니다.<br>  
