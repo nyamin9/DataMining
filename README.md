@@ -15,8 +15,9 @@
   - 다만 깃허브 레퍼지토리는 인터랙티브한 plot을 지원해주지 않기 때문에, 해당 그래프의 임베딩 URL을 클릭하여 확인하시면 좋을 것 같습니다.
   - 운영중인 깃허브 블로그에도 올라갈 예정입니다. 블로그에서는 URL을 누르지 않으셔도 확인하실 수 있으니, 이 방법이 훨씬 편할 수 있을 듯 합니다😊.
   - 블로그 주소는 https://nyamin9.github.io/ 입니다!! 제 깃허브 readme에도 링크가 걸려있습니다.  
-  
-***  
+    
+<br>  
+<br>  
 
 ## 🏆 프로젝트 - Cardio Vascular Data Mining  
 
@@ -37,7 +38,9 @@
 심혈관 질환 모델이 사용자의 심혈관 질병의 발병 여부에 대해 예측하고 결과를 알려주는 것입니다. 이러한 심혈관 질환 발병 확인 모델을 만들기 위해 첫번째로 noisy data나, missing data를 찾아서 수정을 하는 데이터 전처리를 할 것입니다. 두번째로 attribute들의 상관관계를 조사해서 비교적 상관관계가 적은 attribute들을 제거해 보고, 선택된 attribute를 가지고 attribute set을 만들 것입니다. 마지막으로 수정된 data를 가지고 decision 
 tree 와 random forest classification으로 model의 성능을 알아볼 예정입니다.  
   
-***  
+<br>  
+<br>  
+  
   
 ## 프로젝트 plotly 차트보드 주소  
   
@@ -45,7 +48,8 @@ tree 와 random forest classification으로 model의 성능을 알아볼 예정�
 
 📊 PCA_plotly : https://chart-studio.plotly.com/~nyamin9/63  
   
-***
+<br>  
+<br>  
 
 (2022.11.07 추가)  
   
