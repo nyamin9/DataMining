@@ -24,7 +24,9 @@ tree 와 random forest classification으로 model의 성능을 알아볼 예정�
   
 📊 01. 데이터 전처리 01 : https://chart-studio.plotly.com/~nyamin9/64  
 
-📊 PCA_plotly : https://chart-studio.plotly.com/~nyamin9/63  
+📊 02. 데이터 상관관계 분석 - correlation / support / confidence / lift / Null invariant score  : https://chart-studio.plotly.com/~nyamin9/66
+
+📊 03. PCA_plotly : https://chart-studio.plotly.com/~nyamin9/63 
   
 <br>  
   
