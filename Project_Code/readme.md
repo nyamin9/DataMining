@@ -7,5 +7,14 @@
 📌 아래 링크와 함께 보시면 더욱 큰 도움이 되실 것 같습니다!!  
   - 데이터 출처 : https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset  
   - 프로젝트 내용 정리 레퍼지토리 : https://github.com/nyamin9/Data-Mining/tree/main/Project  
-   
-***
+  
+<br>  
+<br>  
+
+## 프로젝트 plotly 차트보드 주소  
+  
+📊 01. 데이터 전처리 01 : https://chart-studio.plotly.com/~nyamin9/64  
+
+📊 PCA_plotly : https://chart-studio.plotly.com/~nyamin9/63  
+  
+<br>  
