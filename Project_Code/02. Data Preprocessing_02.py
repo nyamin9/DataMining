@@ -60,4 +60,4 @@ cardio.info()
 
 
 # 9. 최종 데이터 확인
-cardio
+cardio 
