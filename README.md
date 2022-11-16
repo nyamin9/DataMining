@@ -46,6 +46,8 @@ tree 와 random forest classification으로 model의 성능을 알아볼 예정�
   
 📊 01. 데이터 전처리 01 : https://chart-studio.plotly.com/~nyamin9/64  
 
+📊 02. 데이터 전처리 02-노이즈 판단 및 분포 파악 : https://chart-studio.plotly.com/~nyamin9/70
+
 📊 03. 데이터 attribute 간 상관관계 분석 : https://chart-studio.plotly.com/~nyamin9/66
 
 📊 04. PCA 분석 : https://chart-studio.plotly.com/~nyamin9/63  
@@ -62,7 +64,9 @@ tree 와 random forest classification으로 model의 성능을 알아볼 예정�
 📌 어떡해야 할까 정말 많은 고민을 했는데 찾은 방법은 plotly에 업로드 하는 것이었습니다. 제가 주피터로 작성한 파이썬 코드를 업로드하면 그 plotly 그래프 결과도 볼 수 있어 나쁘지 않은 방법이라고 생각합니다.<br>  
 
 📌 시각화를 진행한 .ipynb 파일은 업로드해서 readme에 남겨두겠습니다. 아래의 링크를 타고 들어오시기를 바랍니다!!<br>  
-
+  
+<br>  
+  
 
 📊 01. 데이터 전처리 01 : https://chart-studio.plotly.com/~nyamin9/64  
 
