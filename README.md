@@ -66,6 +66,8 @@ tree 와 random forest classification으로 model의 성능을 알아볼 예정�
 
 📊 01. 데이터 전처리 01 : https://chart-studio.plotly.com/~nyamin9/64  
 
+📊 02. 데이터 전처리 02-노이즈 판단 및 분포 파악 : https://chart-studio.plotly.com/~nyamin9/70
+
 📊 03. 데이터 attribute 간 상관관계 분석 : https://chart-studio.plotly.com/~nyamin9/66
 
 📊 04. PCA 분석 : https://chart-studio.plotly.com/~nyamin9/63
