@@ -118,4 +118,4 @@ fig.show()
     - kulczynski와 IR 값으로 선택한 attribute는 다음과 같음. 
     - [ap_hi, ap_lo, gluc, gender, active, age, cholesterol]
 - 전체적으로 큰 chi-square값을 보이나, 그에 비해 작은 결과를 나타내는 attribute를 제외하면 남은 attribute는 아래와 같음.
-    - [age, ap_hi, ap_lo, cholesterol, gluc, active, BMI]
+    - [age, ap_hi, ap_lo, cholesterol, gluc, active, BMI] 
