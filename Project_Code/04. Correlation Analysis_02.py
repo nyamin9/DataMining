@@ -33,7 +33,7 @@ fig.update_layout(
         'template' : 'plotly_white'
     })
 
-fig.show()
+fig.show() 
 
 
 # 02. support / confidence / Null invariant method
