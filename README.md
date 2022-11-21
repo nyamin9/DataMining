@@ -51,6 +51,8 @@ tree 와 random forest classification으로 model의 성능을 알아볼 예정�
 📊 03. 데이터 attribute 간 상관관계 분석 : https://chart-studio.plotly.com/~nyamin9/66
 
 📊 04. PCA 분석 : https://chart-studio.plotly.com/~nyamin9/63  
+
+📊 05. Classification (결정트리/랜덤포레스트) : https://chart-studio.plotly.com/~nyamin9/71
   
 <br>  
   
@@ -74,7 +76,9 @@ tree 와 random forest classification으로 model의 성능을 알아볼 예정�
 
 📊 03. 데이터 attribute 간 상관관계 분석 : https://chart-studio.plotly.com/~nyamin9/66
 
-📊 04. PCA 분석 : https://chart-studio.plotly.com/~nyamin9/63
+📊 04. PCA 분석 : https://chart-studio.plotly.com/~nyamin9/63  
+
+📊 05. Classification (결정트리/랜덤포레스트) : https://chart-studio.plotly.com/~nyamin9/71
 
 
 ***  
