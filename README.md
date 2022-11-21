@@ -44,15 +44,15 @@ tree 와 random forest classification으로 model의 성능을 알아볼 예정�
   
 ## 프로젝트 plotly 차트보드 주소  
   
-📊 01. 데이터 전처리 01 : https://chart-studio.plotly.com/~nyamin9/64  
+[📊 01. 데이터 전처리 01](https://chart-studio.plotly.com/~nyamin9/64)  
 
-📊 02. 데이터 전처리 02-노이즈 판단 및 분포 파악 : https://chart-studio.plotly.com/~nyamin9/70
+[📊 02. 데이터 전처리 02-노이즈 판단 및 분포 파악](https://chart-studio.plotly.com/~nyamin9/70)
 
-📊 03. 데이터 attribute 간 상관관계 분석 : https://chart-studio.plotly.com/~nyamin9/66
+[📊 03. 데이터 attribute 간 상관관계 분석](https://chart-studio.plotly.com/~nyamin9/66)
 
-📊 04. PCA 분석 : https://chart-studio.plotly.com/~nyamin9/63  
+[📊 04. PCA 분석](https://chart-studio.plotly.com/~nyamin9/63)  
 
-📊 05. Classification (결정트리/랜덤포레스트) : https://chart-studio.plotly.com/~nyamin9/71  
+[📊 05. Classification (결정트리/랜덤포레스트)](https://chart-studio.plotly.com/~nyamin9/71)  
 
 [📊 06. 결과레포트](https://github.com/nyamin9/Data-Mining/blob/main/Project/14.%202022-1%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%A7%88%EC%9D%B4%EB%8B%9D%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B2%B0%EA%B3%BC%20%EB%A0%88%ED%8F%AC%ED%8A%B8.pdf)
   
@@ -72,15 +72,17 @@ tree 와 random forest classification으로 model의 성능을 알아볼 예정�
 <br>  
   
 
-📊 01. 데이터 전처리 01 : https://chart-studio.plotly.com/~nyamin9/64  
+[📊 01. 데이터 전처리 01](https://chart-studio.plotly.com/~nyamin9/64)  
 
-📊 02. 데이터 전처리 02-노이즈 판단 및 분포 파악 : https://chart-studio.plotly.com/~nyamin9/70
+[📊 02. 데이터 전처리 02-노이즈 판단 및 분포 파악](https://chart-studio.plotly.com/~nyamin9/70)
 
-📊 03. 데이터 attribute 간 상관관계 분석 : https://chart-studio.plotly.com/~nyamin9/66
+[📊 03. 데이터 attribute 간 상관관계 분석](https://chart-studio.plotly.com/~nyamin9/66)
 
-📊 04. PCA 분석 : https://chart-studio.plotly.com/~nyamin9/63  
+[📊 04. PCA 분석](https://chart-studio.plotly.com/~nyamin9/63)  
 
-📊 05. Classification (결정트리/랜덤포레스트) : https://chart-studio.plotly.com/~nyamin9/71
+[📊 05. Classification (결정트리/랜덤포레스트)](https://chart-studio.plotly.com/~nyamin9/71)  
+
+[📊 06. 결과레포트](https://github.com/nyamin9/Data-Mining/blob/main/Project/14.%202022-1%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%A7%88%EC%9D%B4%EB%8B%9D%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B2%B0%EA%B3%BC%20%EB%A0%88%ED%8F%AC%ED%8A%B8.pdf)
 
 
 ***  
