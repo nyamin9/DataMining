@@ -38,7 +38,7 @@ tree 와 random forest classification으로 model의 성능을 알아볼 예정�
 
 <br>  
 
-## 🏆 프로젝트 결과 해석 및 분석  
+## 🏆 프로젝트 결과 해석 및 분석   
   
 
 원본 데이터 test set의 전체 attribute에 대한 Decision Tree의 accuracy가 max_depth=5 일때 0.72439로 가장 높았습니다. Accuracy가 생각보다 낮게 나왔기 때문에 오버피팅을 첫번째 염두에 두고 train set에 대한 accuracy를 산출해 보았습니다. 하지만 max_depth=5 일때 model의 train set에 대한 accuracy 역시 0.726을 조금 상회하는 수준이었고, 이로부터 오버피팅이라기 보다는 학습 자체가 제대로 되지 않았을 가능성이 높다고 생각하였습니다. 다만, 트리의 최대 깊이를 설정하지 않고 default 상태인 None으로 학습을 진행한 경우에는 test set에서 0.642 정도의 accuracy로 그 성능이 더욱 떨어진 것을 확인하였습니다. 이에 그 경우의 train set에 대한 accuracy를 구한 결과 대부분의 수치가 0.9를 상회하는 값이 나왔으며, 확실히 오버피팅이 발생한 것을 확인할 수 있었습니다. 이를 보아 Decision Tree 학습과 테스트에 있어서 Pruning이 중요하다는 것으로 해석할 수 있을 듯 합니다. 반면에, 2절의 연관관계 분석을 통해 추출한 attribute를 통한 accuracy는 전체 attribute에 의한 accuracy와 비슷한 수치를 보여주며 연관관계 분석의 유효함을 입증하였습니다. 또한, 이를 Tree들의 집합인 Random Forest에서 분류하였을 때는 max_depth=12 인 경우에 0.72997 로 소폭 상승했습니다. 여러 개의 트리들을 통해 classification을 한 결과로는 그렇게 좋아보이는 상승량은 아니지만, 성능이 조금이나마 향상되는 것을 확인할 수 있었습니다.  
